@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 30vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -24,7 +24,7 @@
 .footer a {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-grow: 1;
 }
 
@@ -61,16 +61,18 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
 }
 
 .grid {
   display: flex;
+  /*flex-direction: column;*/
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  margin: auto;
 }
 
 .card {
@@ -93,11 +95,13 @@
 }
 
 .card h2 {
+  text-align: center;
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
 .card p {
+  text-align: center;
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
